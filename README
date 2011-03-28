@@ -1,0 +1,43 @@
+3月25日上课
+vim功能及vim学习文档
+脚本语言——script：usually is interpreted language         run some fucntions of a specific program
+go to www.github.com       searh peter-vim      
+how to clone:   git clone +衔接    
+how to use other's vim:   1.（先改名字 ) mv peter-vim/ .vim（若出现错误可能是根目录里面有.vim这个文件名，先删掉再更改）
+3月26日上课
+格式控制：
+mkdir aa
+git init
+vim a.c
+git add a.c 
+git ci
+
+
+
+
+敲代码技巧：
+main+tab
+yy 拷贝
+gg 置顶
+p 粘贴
+A   到行未
+ctrl+n    函数快速调用并补全
+使用之前首先ctags +程序名称      生成tags文件后再使用以下命令
+ctrl+] 在声明函数的地方   执行后会跳到定义部分
+ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
+
+怎么读代码：先看主函数，看到函数定义时，在查看函数时要可以简单转换，实现快速阅读具体操作如下：
+
+使用之前首先ctags +程序名称      生成tags文件后再使用以下命令
+
+ctrl+] 在声明函数的地方   执行后会跳到定义部分
+
+ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
+3月27日上课
+自己的笔记往网上push时的步骤
+vim README 
+touch README
+git add README
+git push -u origin master
+
+#git branch的概念
