@@ -4,6 +4,9 @@ vim功能及vim学习文档
 go to www.github.com       searh peter-vim      
 how to clone:   git clone +衔接    
 how to use other's vim:   1.（先改名字 ) mv peter-vim/ .vim（若出现错误可能是根目录里面有.vim这个文件名，先删掉再更改）
+
+
+
 3月26日上课
 格式控制：
 mkdir aa
@@ -33,6 +36,9 @@ ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使�
 ctrl+] 在声明函数的地方   执行后会跳到定义部分
 
 ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
+
+
+
 3月27日上课
 自己的笔记往网上push时的步骤
 vim README 
@@ -40,4 +46,18 @@ touch README
 git add README
 git push -u origin master
 
+
+3 月29 号上课
+查找功能：配置老师的主页chen 里面的search xxx 
+
+学会C++再QT
+快速开发工具不一定学得越早越好，可以以后工作之后再学，看不到未来的时候就学习最基础的东西
+比用得到的：bash、c、还要掌握一门脚本语言
+
+
+
+3月30号上课
+当编译时出现找不到头文件时   gcc -I/path/to/header/
+ldd a.out          会显示三条指令
+我的电脑上缺少一个文件，要知道它是那个包提供的  执行dpkg -S /usr/include/stdlib.h（查找stdlib.h）    执行后会出现libc6-dev:/usr/include/stdlib.h   即你需要的文件包的名字，然后sudo apt-get install libc6-dev(文件名)
 #git branch的概念
