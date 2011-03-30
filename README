@@ -41,6 +41,7 @@ ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使�
 
 3月27日上课
 自己的笔记往网上push时的步骤
+每次push 之前要先生成新版本，即执行git ci 命令然后
 vim README 
 touch README
 git add README
@@ -60,4 +61,9 @@ git push -u origin master
 当编译时出现找不到头文件时   gcc -I/path/to/header/
 ldd a.out          会显示三条指令
 我的电脑上缺少一个文件，要知道它是那个包提供的  执行dpkg -S /usr/include/stdlib.h（查找stdlib.h）    执行后会出现libc6-dev:/usr/include/stdlib.h   即你需要的文件包的名字，然后sudo apt-get install libc6-dev(文件名)
+
+在阅读代码时可以先折叠一部分代码具体操作如下：
+首先shirft+v 选取多行，然后zf创建折叠    zx打开已创建的折叠    zc再次合上已经创建的折叠
+
+
 #git branch的概念
