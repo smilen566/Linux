@@ -66,4 +66,19 @@ ldd a.out          会显示三条指令
 首先shirft+v 选取多行，然后zf创建折叠    zx打开已创建的折叠    zc再次合上已经创建的折叠
 
 
-#git branch的概念
+##git branch的概念
+
+
+
+
+
+4月6号上课
+许萌老师
+邮箱：xumeng@akaedu.ore
+要练注意基础知识
+char c=128;是否正确
+第一题：输入一个十进制数以二进制数输出
+
+两种方法：  1.求余  2.按位（推荐）
+        按位  &  |  ~     >>左移   <<右移   >>=  <<=
+      例题 zhuanhuan.c and    1zhuanhuan.c    and  2zhuanhuan.c 
