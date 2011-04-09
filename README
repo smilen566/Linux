@@ -121,3 +121,12 @@ while()
 do while
 例题 ：循环 2c.c  2c1.c
 选择 ：例题：xuanze
+
+4月9日
+冒泡排序和快速排序  例题：#suanfa quick_sort.c
+递归    例题： #digui  hanoi.c
+指针  例题：#cbegin zhen zhizhen.c 1zhizhen.c 2zhizhen.c
+思考：给一个二位数组排序
+const  修饰变量  常量
+volatile  防止变量被优化
+restrict  限定一些指针指定
