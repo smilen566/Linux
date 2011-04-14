@@ -1,41 +1,47 @@
 3月25日上课
-vim功能及vim学习文档
-脚本语言——script：usually is interpreted language         run some fucntions of a specific program
-go to www.github.com       searh peter-vim      
+##vim功能及vim学习文档
+
+#脚本语言——script：usually is interpreted language         run some fucntions of a specific program
+
+#go to www.github.com       searh peter-vim      
 how to clone:   git clone +衔接    
-how to use other's vim:   1.（先改名字 ) mv peter-vim/ .vim（若出现错误可能是根目录里面有.vim这个文件名，先删掉再更改）
+how to use other's vim:   1.（先改名字 ) mv peter-vim/ .vim（移动到.vim里面，若出现错误可能是根目录里面有.vim这个文件名，先删掉再更改）
 
 
 
 3月26日上课
-格式控制：
+##格式控制：
 mkdir aa
 git init
 vim a.c
 git add a.c 
-git ci
+git ci       //生成版本
 
 
 
 
-敲代码技巧：
-main+tab
-yy 拷贝
-gg 置顶
-p 粘贴
-A   到行未
-ctrl+n    函数快速调用并补全
+##敲代码技巧：
+main+tab    //
+yy          // 拷贝     
+gg          //置顶 
+p           // 粘贴
+A           // 到行未
+ctrl+n      // 函数快速调用并补全
+ctrl+x+k    //finish the world
+ctrl+s+l    //finish the row
+ctrl+x+f    // ??
+
+:set spell  //   find the mistake
+
+
+
+##怎么读代码：先看主函数，看到函数定义时，在查看函数时要可以简单转换，实现快速阅读具体操作如下：
+
 使用之前首先ctags +程序名称      生成tags文件后再使用以下命令
-ctrl+] 在声明函数的地方   执行后会跳到定义部分
-ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
 
-怎么读代码：先看主函数，看到函数定义时，在查看函数时要可以简单转换，实现快速阅读具体操作如下：
+ctrl+]        // 在声明函数的地方   执行后会跳到定义部分
 
-使用之前首先ctags +程序名称      生成tags文件后再使用以下命令
-
-ctrl+] 在声明函数的地方   执行后会跳到定义部分
-
-ctrl+o在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
+ctrl+o       //在函数定义的地方使用   执行后会会回到声明部分(也使用于多文件模式，也使用与其他快速转换，方便阅读程序)
 
 
 
@@ -128,5 +134,63 @@ do while
 指针  例题：#cbegin zhen zhizhen.c 1zhizhen.c 2zhizhen.c
 思考：给一个二位数组排序
 const  修饰变量  常量
-volatile  防止变量被优化
-restrict  限定一些指针指定
+volatile     // 防止变量被优化
+restrict    // 限定一些指针指定
+
+4月10日上课
+
+ the differences between   strlen(str) and sizeof(str)
+
+
+
+区分：           
+
+                                   
+                                   应用：    p=b    p=&b[]   p=&a[0][0]   p=a[0]   ptr = pstr
+int b[N]                         
+int *p
+int a[M][N]
+int **ptr
+int (*pt)[]  //是一个指向数组的指针
+int *pstr[]  //是一个指向二位数组的指针数组
+
+array[0]   and  &array[0][0]   and array   的数值是一样的但逻辑意义不同
+                    
+
+二位数组的排序
+
+例题  #paixu  array_stor.c           how to use    srand()  and   rand()    //自动生成随机数
+
+
+#任务：(约瑟夫环)要求实现如下功能
+
+      1   2   3(out)
+      4   5   6(out)
+      7   8   9(out)
+      10  1   2(out)
+      4   5   7(out)
+      8   10  1(out)
+      4   5   8(out)
+      10  4   5(out)
+      10  4   10(out)
+      4   4   4(out)
+        
+    the end
+for example:  @program  yuesefu        test.c    1test.c
+    
+
+# function     
+   strtok()         //截取函数
+for example :  0409.c
+
+   strcmp()       //strcmp()是很经典的函数,两个字符串相等返回0,第一个大于第二个返回>0的数,否则返回<0的数
+   strncmp()     //有长度限制的比较
+for example :  @strncmp  0410.c 
+
+#函数定义时  要是有返回值则用返回值类型定义，要是无返回值则用void
+for example  :   int find_world() 则此函数的返回值为int 型，   void find_world()则此函数无返回值
+
+
+
+#一个字符 "123abc"要求把123打印出来
+#   预习链表，复习练过的东西。
