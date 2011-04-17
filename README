@@ -194,3 +194,19 @@ for example  :   int find_world() 则此函数的返回值为int 型，   void f
 
 #一个字符 "123abc"要求把123打印出来
 #   预习链表，复习练过的东西。
+4月17日上课
+#链表
+
+结构体  struct 结构体的作用，因为一个数据有很多部分组成，要使他们---相同，所以要建立一个结构体把他们封装起来，
+
+链表的建立
+for example : #   cbegin list    0417 and 1_0417 and 2_0417
+
+链表的插入和删除
+for example  3 #cbegin list 3_0417 and 4_0417
+
+一个简单的链表插入删除系统
+for example #cbegin list 5_0417 and 6_0417(里面用到atoi函数  使输入更加安全)
+
+#一个算法题，把一个字符串中出现过的字符全部删除
+for example #suanfa 7_0417.c
