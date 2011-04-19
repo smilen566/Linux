@@ -210,3 +210,37 @@ for example #cbegin list 5_0417 and 6_0417(里面用到atoi函数  使输入更�
 
 #一个算法题，把一个字符串中出现过的字符全部删除
 for example #suanfa 7_0417.c
+
+4月18日上课
+
+#约瑟夫环-- 链表实现
+
+for example  #project yuesefu 0418.c
+
+4月19日上课
+
+函数
+ atoi()
+ strtol()
+ strtonl()
+学会用 man 去查找函数
+ 
+ strtol()函数是可以把一个字符串转换成你想要的进制输出
+for example  0419.c
+
+#文件操作
+foropen(name, ways)
+fscanf(fp,......)
+fprint(fp,....)
+fclose(fp  )
+
+"r+"   //可读可写（当文件没建立时会报错，当添加内容时会覆盖添加长度范围内内容，例如原来是12345  当再添加abc时执行后会变为abc45）
+"w+"   //可读可写（当文件没建立时会先建立,当添加时会覆盖之前全部内容）
+"a+"   //追加操作
+for example #file 1_0419.c
+
+fprintf 的应用
+for example #file 1_0419.c(写操作)
+
+fscanf 的应用
+for example #file 2_0419.c（读操作）
